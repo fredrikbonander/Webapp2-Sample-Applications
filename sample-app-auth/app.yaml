@@ -1,0 +1,24 @@
+application: dromstadapp
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+builtins:
+ - appstats: on
+
+libraries:
+- name: jinja2
+  version: "2.6"
+
+handlers:
+- url: /favicon\.ico
+  static_files: ui/favicon.ico
+  upload: ui/favicon.ico
+  mime_type: image/vnd.microsoft.icon
+
+- url: /ui
+  static_dir: ui
+
+- url: .*
+  script: main.app
