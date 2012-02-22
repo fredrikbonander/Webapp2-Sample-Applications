@@ -28,6 +28,5 @@ Run the sample-auth app execute the command:
 make serve-sample-auth
 
 
-
 # NOTES:
 - NDB folder is included in application due to a import statement in webapp2_extras/appengine/auth/models.py

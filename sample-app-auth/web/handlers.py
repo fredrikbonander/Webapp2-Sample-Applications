@@ -182,6 +182,9 @@ class SecureRequestHandler(BaseHandler):
     def get(self, **kwargs):
         user_session = self.auth.get_user_by_session()
         user = self.auth.store.user_model.get_by_auth_token(user_session['user_id'], user_session['token'])
+        user[0].username = 'a'
+        user[0].put()
+
         try:
             return "Secure zone %s <a href='%s'>Logout</a>" % (user, self.auth_config['logout_url'])
         except (AttributeError, KeyError), e:

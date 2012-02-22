@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="Google App Engine SDK">
+    <CLASSES>
+      <root url="file:///usr/local/google_appengine" />
+      <root url="file:///usr/local/google_appengine/lib/antlr3" />
+      <root url="file:///usr/local/google_appengine/lib/cacerts" />
+      <root url="file:///usr/local/google_appengine/lib/enum" />
+      <root url="file:///usr/local/google_appengine/lib/fancy_urllib" />
+      <root url="file:///usr/local/google_appengine/lib/google-api-python-client" />
+      <root url="file:///usr/local/google_appengine/lib/graphy" />
+      <root url="file:///usr/local/google_appengine/lib/grizzled" />
+      <root url="file:///usr/local/google_appengine/lib/httplib2" />
+      <root url="file:///usr/local/google_appengine/lib/ipaddr" />
+      <root url="file:///usr/local/google_appengine/lib/oauth2" />
+      <root url="file:///usr/local/google_appengine/lib/prettytable" />
+      <root url="file:///usr/local/google_appengine/lib/protorpc" />
+      <root url="file:///usr/local/google_appengine/lib/python-gflags" />
+      <root url="file:///usr/local/google_appengine/lib/simplejson" />
+      <root url="file:///usr/local/google_appengine/lib/sqlcmd" />
+      <root url="file:///usr/local/google_appengine/lib/webapp2" />
+      <root url="file:///usr/local/google_appengine/lib/webob" />
+      <root url="file:///usr/local/google_appengine/lib/yaml" />
+      <root url="file:///usr/local/google_appengine/lib/django_1_2" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
